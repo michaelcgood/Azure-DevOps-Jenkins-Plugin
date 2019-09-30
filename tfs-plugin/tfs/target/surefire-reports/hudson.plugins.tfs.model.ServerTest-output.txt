@@ -1,0 +1,4 @@
+WARN  [hudson.plugins.tfs.model.ChangeLogSetIntegrationTest.main] NativeAuthMethods - Could not get principal for kerberos 5 credentials (No credentials cache file found)
+WARN  [hudson.plugins.tfs.model.ChangeLogSetIntegrationTest.main] NativeAuthMethods - Could not get principal for kerberos 5 credentials (No credentials cache file found)
+WARN  [hudson.plugins.tfs.model.ChangeLogSetIntegrationTest.main] NativeAuthMethods - Could not get principal for kerberos 5 credentials (No credentials cache file found)
+WARN  [hudson.plugins.tfs.model.ChangeLogSetIntegrationTest.main] NativeAuthMethods - Could not get principal for kerberos 5 credentials (No credentials cache file found)

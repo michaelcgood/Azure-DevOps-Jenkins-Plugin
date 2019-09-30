@@ -1,0 +1,14 @@
+hudson.plugins.tfs.SafeParametersAction
+hudson.plugins.tfs.TFSRevisionState
+hudson.plugins.tfs.TeamBuildDetailsAction
+hudson.plugins.tfs.TeamFoundationServerScm
+hudson.plugins.tfs.TeamHookCause
+hudson.plugins.tfs.TeamPullRequestMergedDetailsAction
+hudson.plugins.tfs.TeamPushCause
+hudson.plugins.tfs.TeamResultsAction
+hudson.plugins.tfs.browsers.TeamFoundationServerRepositoryBrowser
+hudson.plugins.tfs.browsers.TeamSystemWebAccessBrowser
+hudson.plugins.tfs.model.ChangeLogSet
+hudson.plugins.tfs.model.ChangeSet
+hudson.plugins.tfs.model.ChangeSet$Item
+hudson.plugins.tfs.rm.ReleaseSummaryAction

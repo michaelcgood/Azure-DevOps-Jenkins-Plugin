@@ -1,0 +1,67 @@
+Running tests for org.jenkins-ci.plugins:tfs:5.157.0-SNAPSHOT
+Sep 27, 2019 3:52:59 PM org.eclipse.jetty.util.log.Log initialized
+INFO: Logging initialized @717ms to org.eclipse.jetty.util.log.Slf4jLog
+Sep 27, 2019 3:53:00 PM org.jvnet.hudson.test.WarExploder explode
+INFO: Picking up existing exploded jenkins.war at /Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/target/jenkins-for-test
+Sep 27, 2019 3:53:00 PM org.eclipse.jetty.server.handler.ContextHandler setContextPath
+WARNING: Empty contextPath
+Sep 27, 2019 3:53:00 PM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.4.5.v20170502
+Sep 27, 2019 3:53:00 PM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+INFO: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+Sep 27, 2019 3:53:00 PM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: DefaultSessionIdManager workerName=node0
+Sep 27, 2019 3:53:00 PM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: No SessionScavenger set, using defaults
+Sep 27, 2019 3:53:00 PM org.eclipse.jetty.server.session.HouseKeeper startScavenging
+INFO: Scavenging every 660000ms
+Sep 27, 2019 3:53:00 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.w.WebAppContext@6f70f32f{/,file:///Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/target/jenkins-for-test/,AVAILABLE}{/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/target/jenkins-for-test}
+Sep 27, 2019 3:53:00 PM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@46cc127b{HTTP/1.1,[http/1.1]}{localhost:62119}
+Sep 27, 2019 3:53:00 PM org.eclipse.jetty.server.Server doStart
+INFO: Started @2152ms
+Sep 27, 2019 3:53:00 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Sep 27, 2019 3:53:22 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Sep 27, 2019 3:53:22 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Sep 27, 2019 3:53:22 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Sep 27, 2019 3:53:22 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Sep 27, 2019 3:53:25 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Sep 27, 2019 3:53:26 PM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 62153
+Sep 27, 2019 3:53:26 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Sep 27, 2019 3:53:26 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Sep 27, 2019 3:53:26 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Sep 27, 2019 3:53:26 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Sep 27, 2019 3:53:26 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Sep 27, 2019 3:53:26 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Sep 27, 2019 3:53:26 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Sep 27, 2019 3:53:26 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Sep 27, 2019 3:53:26 PM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.4.5.v20170502
+Sep 27, 2019 3:53:26 PM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: DefaultSessionIdManager workerName=node0
+Sep 27, 2019 3:53:26 PM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: No SessionScavenger set, using defaults
+Sep 27, 2019 3:53:26 PM org.eclipse.jetty.server.session.HouseKeeper startScavenging
+INFO: Scavenging every 660000ms
+Sep 27, 2019 3:53:26 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.s.ServletContextHandler@3122b117{/,null,AVAILABLE}
+Sep 27, 2019 3:53:26 PM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@6fe46b62{HTTP/1.1,[http/1.1]}{0.0.0.0:62155}
+Sep 27, 2019 3:53:26 PM org.eclipse.jetty.server.Server doStart
+INFO: Started @28022ms

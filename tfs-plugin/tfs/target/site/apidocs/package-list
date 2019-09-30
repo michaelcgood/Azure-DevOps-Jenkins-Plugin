@@ -1,0 +1,10 @@
+hudson.plugins.tfs
+hudson.plugins.tfs.actions
+hudson.plugins.tfs.browsers
+hudson.plugins.tfs.commands
+hudson.plugins.tfs.listeners
+hudson.plugins.tfs.model
+hudson.plugins.tfs.model.servicehooks
+hudson.plugins.tfs.rm
+hudson.plugins.tfs.telemetry
+hudson.plugins.tfs.util

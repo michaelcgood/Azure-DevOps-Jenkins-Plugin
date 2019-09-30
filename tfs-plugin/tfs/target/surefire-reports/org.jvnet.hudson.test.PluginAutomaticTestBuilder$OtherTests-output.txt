@@ -1,0 +1,6 @@
+Sep 27, 2019 3:53:28 PM org.eclipse.jetty.server.AbstractConnector doStop
+INFO: Stopped ServerConnector@46cc127b{HTTP/1.1,[http/1.1]}{localhost:0}
+Sep 27, 2019 3:53:28 PM org.eclipse.jetty.server.session.HouseKeeper stopScavenging
+INFO: Stopped scavenging
+Sep 27, 2019 3:53:28 PM org.eclipse.jetty.server.handler.ContextHandler doStop
+INFO: Stopped o.e.j.w.WebAppContext@6f70f32f{/,file:///Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/target/jenkins-for-test/,UNAVAILABLE}{/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/target/jenkins-for-test}

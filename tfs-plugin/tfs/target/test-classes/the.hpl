@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Group-Id: org.jenkins-ci.plugins
+Short-Name: tfs
+Long-Name: Team Foundation Server Plug-in
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Team+Foundation+Server
+ +Plugin
+Compatible-Since-Version: 3.2.0
+Plugin-Version: 5.157.0-SNAPSHOT (private-bb3fb4e4-mikegood)
+Hudson-Version: 1.642.3
+Jenkins-Version: 1.642.3
+Plugin-Dependencies: workflow-cps:2.30,workflow-job:2.10,workflow-supp
+ ort:2.14,credentials:1.25,git:2.5.2,mailer:1.16
+Plugin-Developers: David Staheli:dastahel:dastahel@microsoft.com,Jason
+  Prickett:jpricket:jpricket@microsoft.com,Jeff Young:jeffyoung:jeyou@
+ microsoft.com,Sriram Balasubramaniyan:jenkinssriramb:sriramb@microsof
+ t.com,Kalyan:kalyan:kasubram@microsoft.com,Kellie Jos:keljos:kej@micr
+ osoft.com,Manfred Moser:mosabua:manfred@simpligility.com
+Libraries: /Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-p
+ lugin/tfs/src/main/resources,/Users/mikegood/Documents/workspace-sts-
+ 3.9.4.RELEASE/tfs-plugin/tfs/target/classes,/Users/mikegood/.m2/repos
+ itory/com/google/code/gson/gson/2.3.1/gson-2.3.1.jar,/Users/mikegood/
+ .m2/repository/com/google/guava/guava/18.0/guava-18.0.jar,/Users/mike
+ good/.m2/repository/com/microsoft/tfs/sdk/com.microsoft.tfs.sdk/14.0.
+ 3/com.microsoft.tfs.sdk-14.0.3.jar,/Users/mikegood/.m2/repository/com
+ mons-codec/commons-codec/1.10/commons-codec-1.10.jar,/Users/mikegood/
+ .m2/repository/org/apache/httpcomponents/httpclient/4.5/httpclient-4.
+ 5.jar,/Users/mikegood/.m2/repository/org/apache/httpcomponents/httpco
+ re/4.4.1/httpcore-4.4.1.jar,/Users/mikegood/.m2/repository/org/json/j
+ son/20090211/json-20090211.jar
+Resource-Path: /Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/t
+ fs-plugin/tfs/src/main/webapp
+

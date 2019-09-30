@@ -1,0 +1,12 @@
+{
+  "team-build":
+  {
+    "Build.Repository.Provider": "TfGit",
+    "System.TeamFoundationCollectionUri": "https://fabrikam-fiber-inc.visualstudio.com",
+    "Build.Repository.Uri": "https://fabrikam-fiber-inc.visualstudio.com/_git/Fabrikam-Fiber-Git",
+    "System.TeamProject": "Fabrikam-Fiber-Git",
+    "Build.Repository.Name": "Fabrikam-Fiber-Git",
+    "Build.SourceVersion": "33b55f7cb7e7e245323987634f960cf4a6e6bc74",
+    "Build.RequestedFor": "Jamal Hartnett"
+  }
+}

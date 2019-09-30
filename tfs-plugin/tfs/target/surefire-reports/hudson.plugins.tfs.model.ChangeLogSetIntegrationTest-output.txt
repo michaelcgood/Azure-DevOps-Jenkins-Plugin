@@ -1,0 +1,69 @@
+Loading $JENKINS_HOME from /Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/target/test-classes/hudson/plugins/tfs/model/ChangeLogSetIntegrationTest/testThatLogSetContainsCheckedInByUserReference.zip
+Sep 27, 2019 3:53:29 PM org.eclipse.jetty.server.handler.ContextHandler setContextPath
+WARNING: Empty contextPath
+Sep 27, 2019 3:53:29 PM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.4.5.v20170502
+Sep 27, 2019 3:53:29 PM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+INFO: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+Sep 27, 2019 3:53:29 PM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: DefaultSessionIdManager workerName=node0
+Sep 27, 2019 3:53:29 PM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: No SessionScavenger set, using defaults
+Sep 27, 2019 3:53:29 PM org.eclipse.jetty.server.session.HouseKeeper startScavenging
+INFO: Scavenging every 660000ms
+Sep 27, 2019 3:53:29 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.w.WebAppContext@47044f7d{/,file:///Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/target/jenkins-for-test/,AVAILABLE}{/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/target/jenkins-for-test}
+Sep 27, 2019 3:53:29 PM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@58a765ce{HTTP/1.1,[http/1.1]}{localhost:62157}
+Sep 27, 2019 3:53:29 PM org.eclipse.jetty.server.Server doStart
+INFO: Started @31355ms
+Sep 27, 2019 3:53:29 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Sep 27, 2019 3:53:29 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Sep 27, 2019 3:53:29 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Sep 27, 2019 3:53:29 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Sep 27, 2019 3:53:29 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Sep 27, 2019 3:53:30 PM jenkins.model.RunIdMigrator migrate
+INFO: Migrating build records in /var/folders/xh/7sl7j64x1j31blkj0qs7r2xw0000gn/T/jenkinsTests.tmp/jenkins5604113496595684793test/jobs/4943/builds
+Sep 27, 2019 3:53:30 PM jenkins.model.RunIdMigrator migrate
+WARNING: Build record migration (https://wiki.jenkins-ci.org/display/JENKINS/JENKINS-24380+Migration) is one-way. If you need to downgrade Jenkins, run: java -classpath "/Users/mikegood/.m2/repository/org/jenkins-ci/main/jenkins-core/1.642.3/jenkins-core-1.642.3.jar:/Users/mikegood/.m2/repository/com/microsoft/tfs/sdk/com.microsoft.tfs.sdk/14.0.3/com.microsoft.tfs.sdk-14.0.3.jar:/Users/mikegood/.m2/repository/org/kohsuke/stapler/stapler/1.237/stapler-1.237.jar:/Users/mikegood/.m2/repository/org/apache/ant/ant/1.8.4/ant-1.8.4.jar:/Users/mikegood/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar" jenkins.model.RunIdMigrator "/var/folders/xh/7sl7j64x1j31blkj0qs7r2xw0000gn/T/jenkinsTests.tmp/jenkins5604113496595684793test"
+Sep 27, 2019 3:53:30 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Sep 27, 2019 3:53:30 PM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 62158
+Sep 27, 2019 3:53:30 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Sep 27, 2019 3:53:30 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Sep 27, 2019 3:53:30 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Sep 27, 2019 3:53:30 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Sep 27, 2019 3:53:30 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Sep 27, 2019 3:53:30 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Sep 27, 2019 3:53:30 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Sep 27, 2019 3:53:30 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+=== Starting ChangeLogSetIntegrationTest.testThatLogSetContainsCheckedInByUserReference
+WARN  [Executing testThatLogSetContainsCheckedInByUserReference] DefaultCssErrorHandler - CSS error: 'http://localhost:62157/static/8a3097ac/css/style.css' [1410:17] Error in class selector. (Invalid token "only". Was expecting: <IDENT>.)
+WARN  [Executing testThatLogSetContainsCheckedInByUserReference] DefaultCssErrorHandler - CSS warning: 'http://localhost:62157/static/8a3097ac/css/style.css' [1410:17] Ignoring the whole rule.
+WARN  [Executing testThatLogSetContainsCheckedInByUserReference] DefaultCssErrorHandler - CSS error: 'http://localhost:62157/static/8a3097ac/css/style.css' [1420:33] Error in class selector. (Invalid token "only". Was expecting: <IDENT>.)
+WARN  [Executing testThatLogSetContainsCheckedInByUserReference] DefaultCssErrorHandler - CSS warning: 'http://localhost:62157/static/8a3097ac/css/style.css' [1420:33] Ignoring the whole rule.
+WARN  [Executing testThatLogSetContainsCheckedInByUserReference] DefaultCssErrorHandler - CSS error: 'http://localhost:62157/static/8a3097ac/css/style.css' [1430:49] Error in class selector. (Invalid token "only". Was expecting: <IDENT>.)
+WARN  [Executing testThatLogSetContainsCheckedInByUserReference] DefaultCssErrorHandler - CSS warning: 'http://localhost:62157/static/8a3097ac/css/style.css' [1430:49] Ignoring the whole rule.
+WARN  [Executing testThatLogSetContainsCheckedInByUserReference] DefaultCssErrorHandler - CSS error: 'http://localhost:62157/static/8a3097ac/css/style.css' [1693:5] Error in style rule. (Invalid token "/". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";", "*".)
+WARN  [Executing testThatLogSetContainsCheckedInByUserReference] DefaultCssErrorHandler - CSS warning: 'http://localhost:62157/static/8a3097ac/css/style.css' [1693:5] Ignoring the following declarations in this rule.
+WARN  [Executing testThatLogSetContainsCheckedInByUserReference] DefaultCssErrorHandler - CSS error: 'http://localhost:62157/static/8a3097ac/css/style.css' [1765:3] Error in declaration. '*' is not allowed as first char of a property.
+Sep 27, 2019 3:53:34 PM org.eclipse.jetty.server.AbstractConnector doStop
+INFO: Stopped ServerConnector@58a765ce{HTTP/1.1,[http/1.1]}{localhost:0}
+Sep 27, 2019 3:53:34 PM org.eclipse.jetty.server.session.HouseKeeper stopScavenging
+INFO: Stopped scavenging
+Sep 27, 2019 3:53:34 PM org.eclipse.jetty.server.handler.ContextHandler doStop
+INFO: Stopped o.e.j.w.WebAppContext@47044f7d{/,file:///Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/target/jenkins-for-test/,UNAVAILABLE}{/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/target/jenkins-for-test}

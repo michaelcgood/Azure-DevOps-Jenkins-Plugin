@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.jvnet.hudson.test.PropertiesTestSuite$PropertiesTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.jvnet.hudson.test.PropertiesTestSuite$PropertiesTest

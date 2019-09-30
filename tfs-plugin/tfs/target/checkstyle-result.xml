@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/SafeParametersAction.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/UnsupportedIntegrationAction.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/TeamBuildEndpoint.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/JenkinsEventNotifier.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/util/TeamRestClient.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/util/BuildWorkspaceConfigurationRetriever.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/util/KeyValueTextReader.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/util/TextTableParser.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/util/StringBodyParameter.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/util/MediaType.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/util/DateUtil.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/util/EndpointHelper.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/util/ActionHelper.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/util/ResourceHelper.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/util/UriHelper.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/util/BuildVariableResolver.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/util/QueryString.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/util/TeamStatus.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/util/StringHelper.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/util/MaskedArgumentListBuilder.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/util/XmlHelper.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/TeamPendingStatusBuildStep.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/TeamCollectionConfiguration.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/TeamUpdateWorkItemPostBuildAction.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/TeamPluginGlobalConfig.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/TeamGlobalStatusAction.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/TeamHookCause.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/TeamPRPushTrigger.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/TeamPushTrigger.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/TeamFoundationServerScm.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/ChangeSetWriter.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/TeamEventsEndpoint.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/browsers/TeamFoundationServerRepositoryBrowser.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/browsers/TeamSystemWebAccessBrowser.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/TeamPullRequestMergedDetailsAction.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/TeamGlobalStatusPoster.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/LegacyIdentityManagementService.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/ExtraSettings.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/servicehooks/FormattedEventMessage.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/servicehooks/Event.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/servicehooks/EventScope.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/servicehooks/ResourceContainer.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/UserHomePersistenceStore.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/JsonPatchOperation.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/Link.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/JobCompletionEventArgs.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/PingCommand.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/TeamRequestedResult.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/WorkspaceMapping.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/PingHookEvent.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/WorkItemTrackingResourceReference.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/AbstractCommand.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/GitCodePushedEventArgs.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/TeamGitStatus.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/ManualCredentialsConfigurer.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/GitPullRequestEx.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/ChangeSet.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/UserAccountMapper.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/ChangeLogSet.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/CredentialsConfigurer.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/CredentialsConfigurerDescriptor.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/BuildCommand.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/WorkItem.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/MockableVersionControlClient.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/GitPullRequestMergedEvent.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/HttpMethod.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/ListOfGitRepositories.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/DomainUserAccountMapper.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/UserLookup.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/NativeLibraryExtractor.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/Workspaces.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/GitStatusContext.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/GitPushEvent.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/BuildWithParametersCommand.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/TeamBuildPayload.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/ClonePersistenceStoreProvider.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/NativeLibraryManager.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/WebProxySettings.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/GitStatusState.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/BuildParameter.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/ModernHTTPClientFactory.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/Project.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/PullRequestMergeCommitCreatedEventArgs.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/AliasOnlyUserAccountMapper.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/Server.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/AutomaticCredentialsConfigurer.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/ModernConnectionAdvisor.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/ConnectHookEvent.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/TeamResultType.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/ProxyHostEx.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/TfsUserLookup.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/Workspace.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/UserAccountMapperDescriptor.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/WorkspaceConfiguration.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/WorkItemTrackingResource.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/ConnectionParameters.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/model/AbstractHookEvent.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/actions/CheckoutAction.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/actions/RemoveWorkspaceAction.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/TFSRevisionState.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/TFSLabeler.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/TeamResultsAction.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/ChangeSetReader.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/commands/DeleteWorkspaceCommand.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/commands/RemoteChangesetVersionCommand.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/commands/ListWorkspacesCommand.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/commands/AbstractCommand.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/commands/Command.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/commands/AbstractCallableCommand.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/commands/LabelCommand.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/commands/GetFilesToWorkFolderCommand.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/commands/GetWorkspaceMappingCommand.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/commands/NewWorkspaceCommand.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/commands/ServerConfigurationProvider.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/telemetry/TelemetryContextInitializer.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/telemetry/TelemetryHelper.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/CommitParameterAction.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/TeamCompletedStatusPostBuildAction.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/TeamPushCause.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/PullRequestParameterAction.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/rm/Artifact.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/rm/ReleaseManagementHttpClient.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/rm/ReleaseWebHookReference.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/rm/ConnectReleaseWebHookEvent.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/rm/Definition.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/rm/ModifiedBy.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/rm/ArtifactVersion.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/rm/ReleaseArtifactVersionsResponse.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/rm/ReleaseBody.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/rm/ReleaseWebHookStatus.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/rm/RetentionPolicy.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/rm/ReleaseManagementCI.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/rm/ReleaseDefinition.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/rm/ReleaseManagementException.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/rm/ReleaseSummaryAction.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/rm/ReleaseWebHookHelper.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/rm/ReleaseArtifact.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/rm/ReleaseWebHookAction.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/rm/DefinitionReference.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/rm/ReleaseWebHook.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/rm/ReleaseWebHookResource.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/rm/Project.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/rm/InstanceReference.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/rm/CreatedBy.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/rm/Version.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/rm/ReleaseWebHookSummaryAction.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/listeners/JenkinsRunListener.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/TeamBuildDetailsAction.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/java/hudson/plugins/tfs/TeamCollectResultsPostBuildAction.java">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/resources/hudson/plugins/tfs/TeamFoundationServerScm/config_fr.properties">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/resources/hudson/plugins/tfs/model/ChangeLogSet/index_fr.properties">
+</file>
+<file name="/Users/mikegood/Documents/workspace-sts-3.9.4.RELEASE/tfs-plugin/tfs/src/main/resources/hudson/plugins/tfs/model/ChangeLogSet/digest_fr.properties">
+</file>
+</checkstyle>

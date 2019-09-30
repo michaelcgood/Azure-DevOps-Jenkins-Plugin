@@ -1,0 +1,5 @@
+hudson.plugins.tfs.TFSRevisionState
+hudson.plugins.tfs.TeamBuildDetailsAction
+hudson.plugins.tfs.TeamPullRequestMergedDetailsAction
+hudson.plugins.tfs.model.ChangeSet
+hudson.plugins.tfs.model.ChangeSet.Item

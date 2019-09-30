@@ -1,0 +1,44 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+    <f:entry field="serverUrl" title="Collection URL" description="The URL to the team project collection">
+        <f:combobox clazz="required" checkMessage="${%Collection URL is mandatory.}"/>
+    </f:entry>
+    
+    <f:entry field="projectPath" title="Project path" description="The path to the TFVC project must start with '$/'">
+        <f:textbox checkUrl="'${rootURL}/scm/TeamFoundationServerScm/projectPathCheck?value='+escape(this.value)"/>
+    </f:entry>
+
+    <f:entry>
+        <f:dropdownDescriptorSelector
+            title="Credentials"
+            field="credentialsConfigurer"
+            descriptors="${descriptor.getCredentialsConfigurerDescriptors()}" />
+    </f:entry>
+
+    <f:advanced>
+
+		<f:entry field="useUpdate" title="Use update" description="If checked, the workspace will not be deleted and re-created at the start of each build, making the build faster, but this causes the artifacts from the previous build to remain when a new build starts.">
+			<f:checkbox default="true"/>
+		</f:entry>
+    
+		<f:entry field="useOverwrite" title="Use overwrite" description="If checked, all changed files in workspace will be overwritten by files from the server.">
+			<f:checkbox default="true"/>
+		</f:entry>
+
+	    <f:entry field="localPath" title="Local workfolder">
+	        <f:textbox default="."
+	             clazz="required" checkMessage="${%Local workfolder is mandatory, empty field will use job workspace as workfolder.}"/>
+	    </f:entry>
+
+        <f:entry field="workspaceName" title="Workspace name">
+            <f:textbox default="Hudson-$${JOB_NAME}-$${NODE_NAME}"
+             checkUrl="'${rootURL}/scm/TeamFoundationServerScm/workspaceNameCheck?value='+escape(this.value)"/>
+        </f:entry>
+
+        <f:entry field="cloakedPaths" title="Cloaked paths" description="A collection of server paths to cloak to exclude from the workspace and from the build trigger.  Multiple entries must be placed onto separate lines.">
+            <f:textarea checkUrl="'${rootURL}/scm/TeamFoundationServerScm/cloakedPathsCheck?value='+escape(this.value)"/>
+        </f:entry>
+    </f:advanced>
+    
+    <t:listScmBrowsers name="tfs.browser" />
+</j:jelly>

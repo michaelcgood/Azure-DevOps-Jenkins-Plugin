@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='tfs-sdk' version='5.157.0-SNAPSHOT'><l:dependency name='TFS SDK installer' groupId='org.jenkins-ci.plugins' artifactId='tfs-sdk' version='5.157.0-SNAPSHOT' url=''><l:description>The Jenkins Plugins Parent POM Project</l:description></l:dependency></l:dependencies>
