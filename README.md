@@ -1,8 +1,8 @@
-**Azure Server DevOps Server Plugin for Jenkins **
+## Summary of Azure DevOps Jenkins Plugin
 
 This plugin is a fork of https://github.com/jenkinsci/tfs-plugin
 
-*This plugin was formerly known as TFS (team foundation server), a prior version of Azure DevOps Server*
+*This plugin was formerly known as TFS (team foundation server), a prior version of Azure DevOps Server. Now there is the SaaS version on Azure called Azure DevOps.*
 
 What does it do? Why modify the original? Because it didn't work with the current release of Azure DevOps. The URLs for the API changed since 2018 and the plugin still referred to the old URLs. My edits reflect the new URLs, in order for it to work. Questions? Please email michael@michaelcgood.com
 
